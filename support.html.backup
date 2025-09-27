@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サポート - Time with Kids</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 20px;
+        }
+        .support-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            border-left: 5px solid #007AFF;
+        }
+        .contact-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #007AFF, #0056CC);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,122,255,0.3);
+        }
+        .faq-item {
+            margin: 20px 0;
+            padding: 20px;
+            border-left: 4px solid #007AFF;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .faq-item h3 {
+            color: #007AFF;
+            margin-top: 0;
+        }
+        .back-btn {
+            display: inline-block;
+            background: #007AFF;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .back-btn:hover {
+            background: #0056CC;
+        }
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        .footer a {
+            color: #007AFF;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script src="language-switcher.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Time with Kids サポート</h1>
+            <p>お子様との時間をより充実させるお手伝いをいたします</p>
+        </div>
+        
+        <div class="support-section">
+            <h2>お問い合わせ</h2>
+            <p>ご質問や不具合の報告は、以下の方法でお問い合わせください：</p>
+            <a href="https://forms.google.com/あなたのフォームURL" class="contact-btn">お問い合わせフォーム</a>
+            <p>またはメール: support@santamaruapp.com</p>
+        </div>
+
+        <div class="support-section">
+            <h2>よくある質問（FAQ）</h2>
+            
+            <div class="faq-item">
+                <h3>Q: アプリの基本的な使い方を教えてください</h3>
+                <p>A: アプリを起動後、[設定]メニューからお子様の情報を登録してください。その後、メイン画面でお子様との活動を選択し、カテゴリを選んで時間を記録できます。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q: データが消えてしまいました</h3>
+                <p>A: バックアップ機能をご利用ください。[設定]→[データ管理]からバックアップを作成できます。既にバックアップがある場合は、そこからデータを復元できます。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q: 課金について教えてください</h3>
+                <p>A: 基本機能は無料でご利用いただけます。プレミアム機能には、高度な分析機能、無制限の目標設定、クラウドバックアップが含まれます。設定からいつでもアップグレードできます。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q: 目標の設定方法を教えてください</h3>
+                <p>A: メインメニューから[目標]を選択し、「+」ボタンをタップして、お子様との様々な活動の時間目標を設定できます。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q: 複数のデバイスで使用できますか？</h3>
+                <p>A: はい、プレミアム購読をお持ちの場合、iCloudバックアップを使用して複数のデバイス間でデータを同期できます。</p>
+            </div>
+        </div>
+
+        <div class="support-section">
+            <h2>トラブルシューティング</h2>
+            <ul>
+                <li><strong>アプリが起動しない場合:</strong> 端末の再起動をお試しください。また、最新のiOSバージョンを使用していることを確認してください</li>
+                <li><strong>動作が重い場合:</strong> 設定→データ管理→キャッシュクリアからアプリのキャッシュをクリアしてみてください</li>
+                <li><strong>通知が来ない場合:</strong> 端末の通知設定をご確認ください。アプリに通知の許可が与えられているかも確認してください</li>
+                <li><strong>データ同期の問題:</strong> iCloudにサインインしていることと、安定したインターネット接続があることを確認してください</li>
+                <li><strong>アプリがクラッシュする場合:</strong> アプリを強制終了して再起動してみてください。問題が続く場合は、端末を再起動してください</li>
+            </ul>
+        </div>
+
+        <div class="support-section">
+            <h2>アプリ情報</h2>
+            <p><strong>現在のバージョン:</strong> 1.0.0</p>
+            <p><strong>対応iOSバージョン:</strong> iOS 14.0以降</p>
+            <p><strong>アプリサイズ:</strong> 約25MB</p>
+            <p><strong>最終更新日:</strong> 2024年12月19日</p>
+        </div>
+
+        <div class="footer">
+            <a href="index.html" class="back-btn">← ホームに戻る</a>
+            <p>
+                <a href="index.html">ホーム</a> | 
+                <a href="support.html">サポート</a> | 
+                <a href="privacy-policy.html">プライバシーポリシー</a>
+            </p>
+            <p>&copy; 2024 santamaruapp. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
